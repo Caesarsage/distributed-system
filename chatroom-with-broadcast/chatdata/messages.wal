@@ -1,0 +1,4 @@
+{"id":0,"from":"system","content":"*** hh joined the chat ***\n","timestamp":"2025-12-15T01:25:23.918381+01:00","channel":"global"}
+{"id":1,"from":"hh","content":"hi\n","timestamp":"2025-12-15T01:25:29.807188+01:00","channel":"global"}
+{"id":2,"from":"system","content":"*** cae joined the chat ***\n","timestamp":"2025-12-15T01:25:46.242136+01:00","channel":"global"}
+{"id":3,"from":"system","content":"cae left the chat\n","timestamp":"2025-12-15T01:26:36.343451+01:00","channel":"global"}

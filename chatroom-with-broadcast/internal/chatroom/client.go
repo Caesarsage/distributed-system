@@ -1,4 +1,4 @@
-package main
+package chatroom
 
 import (
 	"bufio"
@@ -8,7 +8,8 @@ import (
 	"strings"
 )
 
-func runClient() {
+// StartClient connects to the local chat server and relays stdin/stdout.
+func StartClient() {
 	conn, err := net.Dial("tcp", ":9000")
 
 	if err != nil {
@@ -23,7 +24,7 @@ func runClient() {
 	go func() {
 		reader := bufio.NewReader(conn)
 		for {
-			message, err := reader.ReadString('\n')  // Waits for Enter key
+			message, err := reader.ReadString('\n') // Waits for Enter key
 			if err != nil {
 				fmt.Println("Disconnected from server.")
 				os.Exit(0)
@@ -36,7 +37,7 @@ func runClient() {
 	// Read input from user and send to server
 	inputReader := bufio.NewReader(os.Stdin)
 
-	fmt.Println("Welcome to the chat server! Please enter your username: ")
+	fmt.Println("Welcome to the chat server!")
 
 	for {
 		fmt.Print(">> ")
@@ -49,7 +50,5 @@ func runClient() {
 
 		// Write/Send message to the server
 		conn.Write([]byte(message + "\n"))
-
 	}
 }
-
