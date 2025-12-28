@@ -9,6 +9,8 @@ import (
 	"path/filepath"
 )
 
+// WAL - Write-ahead-log
+
 func (cr *ChatRoom) initializePersistence() error {
 	if err := os.MkdirAll(cr.dataDir, 0755); err != nil {
 		return fmt.Errorf("create data dir: %w", err)
