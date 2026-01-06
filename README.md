@@ -1,5 +1,8 @@
 # Distributed system
 
+List of project to learn fundamentals of distributed systems
+
+```
 Week 0:  ████████████ Echo Server ✅
 Week 1:  ████████████ Chat Server ✅
 Week 2:  ░░░░░░░░░░░░ Workflow Engine
@@ -13,6 +16,7 @@ Week 9:  ░░░░░░░░░░░░ Persistence
 Week 10: ░░░░░░░░░░░░ Multi-tenancy
 Week 11: ░░░░░░░░░░░░ Performance
 Week 12: ░░░░░░░░░░░░ Polish & Document
+```
 
 ## 1. MapReduce
 
