@@ -1,0 +1,11 @@
+{"id":0,"from":"system","content":"*** Alice joined the chat ***\n","timestamp":"2026-02-06T04:15:19.681821+01:00","channel":"global"}
+{"id":1,"from":"system","content":"*** Bob joined the chat ***\n","timestamp":"2026-02-06T04:15:44.263932+01:00","channel":"global"}
+{"id":2,"from":"Bob","content":"Hello guys\n","timestamp":"2026-02-06T04:15:58.317901+01:00","channel":"global"}
+{"id":3,"from":"system","content":"Alice left the chat\n","timestamp":"2026-02-06T04:20:13.823574+01:00","channel":"global"}
+{"id":4,"from":"system","content":"*** Alice joined the chat ***\n","timestamp":"2026-02-06T04:21:59.740132+01:00","channel":"global"}
+{"id":5,"from":"system","content":"*** Bob joined the chat ***\n","timestamp":"2026-02-06T04:22:05.529637+01:00","channel":"global"}
+{"id":6,"from":"system","content":"*** John joined the chat ***\n","timestamp":"2026-02-06T04:22:21.554227+01:00","channel":"global"}
+{"id":7,"from":"John","content":"Hello everyone\n","timestamp":"2026-02-06T04:22:30.020454+01:00","channel":"global"}
+{"id":8,"from":"Bob","content":"Let's talk publically guys\n","timestamp":"2026-02-06T04:23:56.050434+01:00","channel":"global"}
+{"id":9,"from":"Alice","content":"lBye guys\n","timestamp":"2026-02-06T04:24:23.580219+01:00","channel":"global"}
+{"id":10,"from":"system","content":"Alice left the chat\n","timestamp":"2026-02-06T04:24:25.841761+01:00","channel":"global"}
